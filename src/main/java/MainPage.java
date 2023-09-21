@@ -21,6 +21,7 @@ public class MainPage extends HttpServlet {
 
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
-        out.println("<p>Start page project </p>");
+        int a =5;
+        out.println("<p>Start webpage project </p>");
     }
 }
